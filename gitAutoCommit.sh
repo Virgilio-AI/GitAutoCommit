@@ -2,10 +2,7 @@
 #  AutoCommit multiple repos
 #
 
-
-# add the paths to the repositories
-declare -a arr=( "$HOME/.local/src/cfiles" )
-
+declare -a arr=( "$HOME/.local/src/cfiles" "$HOME/.local/src/dmenu" "$HOME/.local/src/dwm" "$HOME/.local/src/dwmblocks" "$HOME/.local/src/st" "$HOME/Documents/GitRepos/ArchIso_AW" "$HOME/Documents/GitRepos/GitAutoCommit")
 
 for i in "${arr[@]}"
 do
